@@ -6,7 +6,7 @@ Hard rules for model behaviour. These are binary — follow or violate. For soft
 
 ## Response signals
 
-Each response ends with exactly **one** signal:
+Each response ends with exactly **one** signal, shown on a newline at the end of the respons:
 
 - `✅ Done` — task complete, no input needed
 - `⚠️ Action needed` — user must do something
@@ -28,6 +28,16 @@ Each response ends with exactly **one** signal:
 - Do not invent information. Say "I don't know" when you don't.
 - Do not hallucinate file contents. Read before referencing.
 - Do not modify files outside this workspace unless explicitly asked.
+
+## Templates
+
+When creating a new file in this workspace, check if a template exists in that folder (files named `_template.md` or similar). If one exists, use it as the starting structure — fill in the placeholders, don't start from scratch.
+
+Known templates:
+
+- `03_plans/_template.md` — for new plans
+- `06_history/sessions/` — follow the format of existing session summaries
+- `06_history/exchanges/` — follow the format of existing exchange logs
 
 ## When unsure — verify or ask
 
