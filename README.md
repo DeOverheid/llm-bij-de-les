@@ -2,6 +2,13 @@
 
 A portable, model-swappable AI workspace. Drop it into any project, answer a few questions, and every LLM you use will know who you are, how you work, and what the project looks like.
 
+## Key principles
+
+- **Files are truth.** Not chat history, not model memory.
+- **Model-agnostic.** Works with any LLM that can read files.
+- **Portable.** Copy the folder, copy one bootstrap file, done.
+- **Private.** Everything stays local. No cloud sync required.
+
 ## Setup (5 minutes)
 
 1. **Copy** the `llm/` folder from this repo into your project root and rename it to `.llm/`
@@ -52,14 +59,12 @@ Copy **one** file from `.llm/00_boot/bootstrap/` to the correct location:
 | ----------------- | ------------------------------------------------- |
 | `start session`   | Load workspace, scan project, get up to speed     |
 | `restart session` | Re-read everything mid-conversation               |
+| `end session`     | Wrap up, write summary, update state              |
 | `push`            | Commit + push + update project overview           |
 | `checkpoint`      | Save full state, prepare for conversation restart |
 | `status`          | Show current branch, changes, what's next         |
-| `end session`     | Wrap up, write summary, update state              |
-
-## Key principles
-
-- **Files are truth.** Not chat history, not model memory.
-- **Model-agnostic.** Works with any LLM that can read files.
-- **Portable.** Copy the folder, copy one bootstrap file, done.
-- **Private.** Everything stays local. No cloud sync required.
+| `plan:`           | Outline approach, ask for approval, then execute  |
+| `explain:`        | Give a thorough, longer explanation               |
+| `advise:`         | Review context, list options with pros/cons       |
+| `check:`          | Verify something — report only, don't change      |
+| `undo`            | Revert the last change (confirm first)            |
