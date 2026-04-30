@@ -1,11 +1,11 @@
-# .llm/ — Your AI Workspace (Template)
+# .llm/ — Your AI Workspace
 
 A portable, model-swappable AI workspace. Drop it into any project, answer a few questions, and every LLM you use will know who you are, how you work, and what the project looks like.
 
 ## Setup (5 minutes)
 
-1. **Copy** this `template/` folder into your project root and rename it to `.llm/`
-2. **Move** the right bootstrap file to your project root (see table below)
+1. **Copy** the `llm/` folder from this repo into your project root and rename it to `.llm/`
+2. **Move** the right bootstrap file from `.llm/00_boot/bootstrap/` to your project root (see table below)
 3. **Start a conversation** with your LLM and say: `start session`
 4. **Answer the setup questions** — the LLM will walk you through filling in your profile
 5. **Delete** the bootstrap setup instructions (they're one-time only)
@@ -33,7 +33,7 @@ Copy **one** file from `.llm/00_boot/bootstrap/` to the correct location:
   03_plans/        Structured plans for work in progress
   04_overview/     Auto-generated project tree + tech stack (LLM fills this)
   05_experience/   Lessons learned, important facts, decisions
-  06_history/      Session summaries, exchange logs, decision log
+  06_history/      Tiered: exchanges → sessions → timeline
   07_skills/       Reusable workflows you can teach the LLM
   08_knowledge/    Reference docs you want the LLM to know about
   09_archive/      Old stuff you don't need active but want to keep
