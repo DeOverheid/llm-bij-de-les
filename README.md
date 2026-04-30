@@ -11,7 +11,7 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 
 ## How it works
 
-- **Files are truth** — your profile, rules, and project state live in files that the LLM reads every session.
+- **File-based** — profile, rules, and project state are stored in plain markdown files, read every session.
 - **Persistent defaults** — your preferences and instructions are set once and applied automatically, every time.
 - **No reliance on context or memory** — nothing important lives in chat history or model recall.
 - **Stored exchanges and decisions** — every session is logged, every decision is recorded for future reference.
