@@ -20,7 +20,7 @@ A portable, model-swappable AI workspace. Drop it into any project, answer a few
 
 ## Bootstrap files
 
-Copy **one** file from `.llm/00_boot/bootstrap/` to the correct location:
+Copy **one** file from `.llm/00_boot/bootstrap/` to your **project root**:
 
 | Tool           | Copy to (project root)            |
 | -------------- | --------------------------------- |
