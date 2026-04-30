@@ -44,7 +44,7 @@ Think through the approach before acting. Outline steps, ask for approval, then 
 
 ## `explain:`
 
-Give a thorough explanation. Alwasy use a longer response style.
+Give a thorough explanation. Always use a longer respons style.
 
 ## `advise:`
 

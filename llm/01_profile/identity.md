@@ -1,6 +1,6 @@
 # Identity
 
-This file tells the LLM who you are and how to reply. Fill in the sections below — pick from the options or write your own.
+This file tells the LLM who you are and how to respond. Fill in the sections below — pick from the options or write your own.
 
 ---
 

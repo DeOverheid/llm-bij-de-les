@@ -12,7 +12,7 @@ Guidelines and conventions. Not hard rules — these describe how you prefer to 
 <!-- - Conversational and collaborative -->
 <!-- - Technical and precise -->
 
-- Be direct. Keep responses short unless asked to explain.
+- Be direct. Keep respons short unless asked to explain.
 - Present choices as quick options the user can pick from.
 
 ## Formatting
