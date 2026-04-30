@@ -9,6 +9,24 @@ A portable, model-swappable AI workspace. Drop it into any project, answer a few
 - **Portable.** Copy the folder, copy one bootstrap file, done.
 - **Private.** Everything stays local. No cloud sync required.
 
+## How it works
+
+- **Files are truth** — your profile, rules, and project state live in files that the LLM reads every session.
+- **Persistent defaults** — your preferences and instructions are set once and applied automatically, every time.
+- **No reliance on context or memory** — nothing important lives in chat history or model recall.
+- **Stored exchanges and decisions** — every session is logged, every decision is recorded for future reference.
+- **Quick project scan** — on startup, the LLM reads your state and project overview to get oriented in seconds.
+- **Deeper dive if needed** — tiered history means the LLM only digs into detail when the summaries aren't enough.
+
+## Benefits
+
+- **No need to repeat yourself** — tell the LLM once how you work, it remembers across every conversation.
+- **Persistence** — nothing is lost between sessions, even if you close the chat or switch tools.
+- **Model-agnostic** — swap between Claude, GPT, Gemini, or local models without losing context.
+- **Consistency** — every model follows the same rules, reads the same files, behaves the same way.
+- **Better memory** — structured logs beat model recall; the LLM can find exactly what happened and when.
+- **No need to re-read every time** — tiered history means the LLM reads summaries first, skips what's irrelevant.
+
 ## Setup (5 minutes)
 
 1. **Copy** the `llm/` folder from this repo into your project root and rename it to `.llm/`
@@ -45,13 +63,6 @@ Copy **one** file from `.llm/00_boot/bootstrap/` to your **project root**:
   08_knowledge/    Reference docs you want the LLM to know about
   09_archive/      Old stuff you don't need active but want to keep
 ```
-
-## How it works
-
-- You say `start session` → the LLM reads your profile, checks what's active, scans your project
-- Files are the source of truth — not chat history, not model memory
-- When you switch models, the new one reads the same files and picks up where you left off
-- The LLM writes exchange logs and session summaries so nothing gets lost
 
 ## Prompt keywords
 
