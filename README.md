@@ -1,6 +1,6 @@
 # .llm/ — Your AI Workspace
 
-A portable, model-swappable AI workspace. Drop it into any project, answer a few questions, and every LLM you use will know who you are, how you work, and what the project looks like.
+A portable, model-swappable AI workspace. Create your persona once, drop it into any project, and every LLM you use will know who you are, how you work, and what the project looks like.
 
 ## Key principles
 
