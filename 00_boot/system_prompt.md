@@ -21,4 +21,4 @@ This workspace (`.llm/`) lives inside a project directory. The parent directory 
 - Files are the source of truth — not chat history, not model memory.
 - When user input belongs in a specific file, write it there.
 - Update the correct workspace file when meaningful information changes.
-- Append to today's exchange log (`06_history/exchanges/YYYY-MM-DD.md`) for every exchange.
+- Append to today's exchange log (`06_history/01_exchanges/YYYY-MM-DD.md`) for every exchange.

@@ -32,7 +32,7 @@ Copy **one** file from `.llm/00_boot/bootstrap/` to the correct location:
   02_state/        What's happening now — current focus, next steps
   03_plans/        Structured plans for work in progress
   04_overview/     Auto-generated project tree + tech stack (LLM fills this)
-  05_memory/       Lessons learned, important facts
+  05_experience/   Lessons learned, important facts, decisions
   06_history/      Session summaries, exchange logs, decision log
   07_skills/       Reusable workflows you can teach the LLM
   08_knowledge/    Reference docs you want the LLM to know about
