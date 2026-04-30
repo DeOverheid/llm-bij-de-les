@@ -30,7 +30,7 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 ## Setup (5 minutes)
 
 1. **Copy** the `llm/` folder from this repo into your project root. Optionally rename it to `.llm/` if you want it hidden from your file tree.
-2. **Move** the right bootstrap file from `llm/00_boot/bootstrap/` (or `.llm/00_boot/bootstrap/`) to your project root (see table below)
+2. **Move** the right bootstrap file from `llm/00_boot/bootstrap/` to your project root (see table below)
 3. **Start a conversation** with your LLM and say: `start session`
 4. **Answer the setup questions** — the LLM will walk you through filling in your profile
 5. **Done** — say `start session` at the start of every conversation from now on
