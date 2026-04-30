@@ -18,6 +18,7 @@ If `01_profile/identity.md` still contains setup questions (not filled in):
   - Ask: "These are your current behaviour rules. Want to keep them as-is, or change any?"
   - Apply any requested changes
 - Once done, confirm the profile is complete
+- Delete the bootstrap file from the project root (the one that pointed here — it's no longer needed)
 
 ## 3. Scan project (if first time or stale)
 

@@ -33,8 +33,7 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 2. **Move** the right bootstrap file from `llm/00_boot/bootstrap/` (or `.llm/00_boot/bootstrap/`) to your project root (see table below)
 3. **Start a conversation** with your LLM and say: `start session`
 4. **Answer the setup questions** — the LLM will walk you through filling in your profile
-5. **Delete** the bootstrap setup instructions (they're one-time only)
-6. **Done** — say `start session` at the start of every conversation from now on
+5. **Done** — say `start session` at the start of every conversation from now on
 
 ## Bootstrap files
 
