@@ -6,9 +6,10 @@ Run this when the user prompts `end session`.
 
 ## 1. Write session summary
 
-- Read today's exchange log
-- Write a summary to `06_history/sessions/YYYY-MM-DD-session-summary.md`
+- Read today's exchange log from `06_history/01_exchanges/`
+- Write a summary to `06_history/02_sessions/YYYY-MM-DD-session-summary.md`
 - Cover: what was done, key decisions, what's next
+- Add a one-line entry to `06_history/03_timeline/timeline.md`
 
 ## 2. Update state files
 
@@ -18,7 +19,7 @@ Run this when the user prompts `end session`.
 ## 3. Check for unwritten context
 
 - Is any durable insight still only in chat? Write it to the correct file.
-- Did decisions get made? Add to `06_history/decision-log.md`.
+- Did decisions get made? Add to `05_experience/decisions.md`.
 
 ## 4. Git
 

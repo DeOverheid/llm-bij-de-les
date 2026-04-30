@@ -27,11 +27,12 @@ Commit all pending changes in logical commits and push. Before committing:
 
 Save full conversation state and prepare for a clean restart:
 
-1. Write final exchange log entry
-2. Write a session summary to `06_history/sessions/YYYY-MM-DD-session-summary.md`
-3. Update `02_state/current_state.md`
-4. Update `02_state/next_actions.md`
-5. Commit and push everything
+1. Write final exchange log entry to `06_history/01_exchanges/`
+2. Write a session summary to `06_history/02_sessions/YYYY-MM-DD-session-summary.md`
+3. Add one-line entry to `06_history/03_timeline/timeline.md`
+4. Update `02_state/current_state.md`
+5. Update `02_state/next_actions.md`
+6. Commit and push everything
 
 ## `status`
 

@@ -33,19 +33,21 @@ This workspace (`.llm/`) lives inside a project. The parent directory (`../`) is
 11. `02_state/open_questions.md` — if the task involves unresolved decisions
 12. `02_state/inbox.md` — if triaging or planning
 13. `03_plans/` — if the task involves project scope or milestones
-14. `05_memory/lessons_learned.md` — if a recurring mistake pattern is suspected
-15. `07_skills/_index.md` — scan available skills; use a matching skill if one applies
+14. `05_experience/lessons_learned.md` — if a recurring mistake pattern is suspected
+15. `05_experience/decisions.md` — if past decisions are relevant
+16. `07_skills/_index.md` — scan available skills; use a matching skill if one applies
 
 ## Step 6 — History (only if more context is needed)
 
-16. `06_history/sessions/` — read the most recent session summary first
-17. `06_history/exchanges/` — only if a summary lacks detail you need
-18. `06_history/decision-log.md` — if past decisions are relevant
+History is tiered. Read from the top down — stop when you have enough context:
+
+17. `06_history/02_sessions/` — read the most recent session summary first
+18. `06_history/01_exchanges/` — only if a summary lacks detail you need
 
 ## Step 7 — Deep context (avoid unless summaries are insufficient)
 
-19. `06_history/timeline.md`
-20. `05_memory/` remaining files
+19. `06_history/03_timeline/timeline.md` — high-level event log
+20. `05_experience/` remaining files
 21. `08_knowledge/` — reference material, last resort
 
 ---
@@ -58,3 +60,16 @@ This workspace (`.llm/`) lives inside a project. The parent directory (`../`) is
 - **After reading, summarise your understanding** before proceeding with the task.
 - **File precedence:** If files conflict: `instructions.md` > `identity.md` > `preferences.md`.
 - **Minimum requirements:** This workspace assumes the model can read files and run terminal commands.
+## History cascade
+
+History is tiered \u2014 each level is generated from the one below it:
+
+```
+01_exchanges (raw data)  \u2192  02_sessions (summaries)  \u2192  03_timeline (one-liners)
+```
+
+- **Exchanges** = raw prompt/response pairs, one file per day. Created during the session.
+- **Sessions** = condensed summary per session. Generated from exchanges on `end session`.
+- **Timeline** = one-line-per-event high-level view. Updated on `end session` and `checkpoint`.
+
+Always read from the top of the tier (sessions first). Only drill into exchanges if a summary lacks the detail you need.

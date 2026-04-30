@@ -36,8 +36,8 @@ When creating a new file in this workspace, check if a template exists in that f
 Known templates:
 
 - `03_plans/_template.md` — for new plans
-- `06_history/sessions/` — follow the format of existing session summaries
-- `06_history/exchanges/` — follow the format of existing exchange logs
+- `06_history/02_sessions/` — follow the format of existing session summaries
+- `06_history/01_exchanges/` — follow the format of existing exchange logs
 
 ## When unsure — verify or ask
 
@@ -49,7 +49,7 @@ Known templates:
 
 If the user corrects something that should already be a rule:
 
-1. Log it in `05_memory/lessons_learned.md`
+1. Log it in `05_experience/lessons_learned.md`
 2. Add it as an explicit rule in this file or `preferences.md`
 3. If no rule existed, create one immediately
 
