@@ -35,6 +35,12 @@ Guidelines and conventions. Not hard rules — these describe how you prefer to 
 <!-- 3. Consistency over novelty -->
 <!-- 4. Fast iteration over perfect architecture -->
 
+## Prompt corrections
+
+<!-- Uncomment if you want typo protection: -->
+<!-- - If I make an obvious typo in a prompt, silently correct it — don't propagate the error into files. -->
+<!-- - If there's any doubt whether it's a typo or intentional, ask before applying. -->
+
 ## Git conventions
 
 <!-- Pick or customise: -->
