@@ -17,7 +17,7 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 - **Stored exchanges and decisions** — every session is logged, every decision is recorded for future reference.
 - **Quick project scan** — on startup, the LLM reads your state and project overview to get oriented in seconds.
 - **Deeper dive if needed** — tiered history means the LLM only digs into detail when the summaries aren't enough.
-- **Weight tracking** — every exchange gets a Fibonacci weight (1–13) based on complexity; the running total tells both you and the LLM when the conversation is getting too long and it's time to checkpoint.
+- **Weight tracking** — every exchange gets an internal weight; the running total tells both you and the LLM when the conversation is getting too long and it's time to checkpoint.
 - **Self-correcting** — the LLM logs lessons learned and updates its own rules when things go wrong. But you're always free to grab a hammer and drive a point home — corrections from the user are final and non-negotiable.
 
 ## Benefits
