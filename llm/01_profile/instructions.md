@@ -6,7 +6,7 @@ Hard rules for model behaviour. These are binary — follow or violate. For soft
 
 ## Response signals
 
-Each respons ends with exactly **one** signal, shown on a newline at the end of the respons:
+Each response ends with exactly **one** signal, shown on a newline at the end of the response:
 
 - `✅ Done` — task complete, no input needed
 - `⚠️ Action needed` — user must do something

@@ -60,6 +60,7 @@ History is tiered. Read from the top down — stop when you have enough context:
 - **After reading, summarise your understanding** before proceeding with the task.
 - **File precedence:** If files conflict: `instructions.md` > `identity.md` > `preferences.md`.
 - **Minimum requirements:** This workspace assumes the model can read files and run terminal commands.
+
 ## History cascade
 
 History is tiered \u2014 each level is generated from the one below it:
@@ -68,7 +69,7 @@ History is tiered \u2014 each level is generated from the one below it:
 01_exchanges (raw data)  \u2192  02_sessions (summaries)  \u2192  03_timeline (one-liners)
 ```
 
-- **Exchanges** = raw prompt/respons pairs, one file per day. Created during the session.
+- **Exchanges** = raw prompt/response pairs, one file per day. Created during the session.
 - **Sessions** = condensed summary per session. Generated from exchanges on `end session`.
 - **Timeline** = one-line-per-event high-level view. Updated on `end session` and `checkpoint`.
 
