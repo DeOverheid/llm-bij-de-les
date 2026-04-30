@@ -48,14 +48,14 @@ Copy **one** file from `.llm/00_boot/bootstrap/` to the correct location:
 
 ## Prompt keywords
 
-| Keyword           | What it does                                         |
-| ----------------- | ---------------------------------------------------- |
-| `start session`   | Load workspace, scan project, get up to speed        |
-| `restart session` | Re-read everything mid-conversation                  |
-| `push`            | Commit + push + update project overview              |
-| `checkpoint`      | Save full state, prepare for conversation restart    |
-| `status`          | Show current branch, changes, what's next            |
-| `end session`     | Wrap up, write summary, update state                 |
+| Keyword           | What it does                                      |
+| ----------------- | ------------------------------------------------- |
+| `start session`   | Load workspace, scan project, get up to speed     |
+| `restart session` | Re-read everything mid-conversation               |
+| `push`            | Commit + push + update project overview           |
+| `checkpoint`      | Save full state, prepare for conversation restart |
+| `status`          | Show current branch, changes, what's next         |
+| `end session`     | Wrap up, write summary, update state              |
 
 ## Key principles
 

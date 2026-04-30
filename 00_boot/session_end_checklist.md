@@ -1,6 +1,6 @@
 # Session End Checklist
 
-Run this when the user says `end session`.
+Run this when the user prompts `end session`.
 
 ---
 

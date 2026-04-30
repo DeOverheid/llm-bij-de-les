@@ -23,6 +23,7 @@ Guidelines and conventions. Not hard rules — these describe how you prefer to 
 ## Planning and workflow
 
 <!-- Pick what matches your style: -->
+
 - Before making non-trivial changes, explain what will be done and wait for approval.
 - Suggest breaking large tasks into smaller parts.
 

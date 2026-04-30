@@ -1,6 +1,6 @@
 # Identity
 
-This file tells the LLM who you are. Fill in the sections below — pick from the options or write your own.
+This file tells the LLM who you are and how to reply. Fill in the sections below — pick from the options or write your own.
 
 ---
 
@@ -36,6 +36,7 @@ This file tells the LLM who you are. Fill in the sections below — pick from th
 ## Primary environment
 
 <!-- Fill in what you use: -->
+
 - **OS:** <!-- macOS / Windows / Linux -->
 - **Editor:** <!-- VS Code / Cursor / Vim / Other -->
 - **Terminal:** <!-- zsh / bash / PowerShell / Other -->

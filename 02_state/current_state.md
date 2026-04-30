@@ -11,6 +11,7 @@ New workspace — setup not yet complete.
 ## What's done
 
 - Workspace structure created
+- Arne wishes you a safe journey!
 
 ## What's in progress
 
