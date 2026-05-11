@@ -29,11 +29,11 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 - **Better memory** - structured logs beat model recall; the LLM can find exactly what happened and when.
 - **No need to re-read every time** - tiered history means the LLM reads summaries first, skips what's irrelevant.
 
-## ChatGPT Initialization
+## Initialization
 
-This repository is an **incomplete agent specification** designed to be finalized through a guided ChatGPT session.
+This repository is an **incomplete agent specification** designed to be finalized through a guided chat session with an LLM. Below are instructions to test this step with ChatGPT. This is meant to test the proces as the files are not yet fully functional with ChatGPT itself.
 
-### Workflow
+### Workflow ChatGPT
 
 1. **Clone / download repository (empty or partial state).**
 2. **Open ChatGPT (browser).**
