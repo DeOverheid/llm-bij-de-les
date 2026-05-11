@@ -29,6 +29,32 @@ A portable, model-swappable AI workspace. Create your persona once, drop it into
 - **Better memory** â€” structured logs beat model recall; the LLM can find exactly what happened and when.
 - **No need to re-read every time** â€” tiered history means the LLM reads summaries first, skips what's irrelevant.
 
+## ChatGPT Initialization
+
+This repository is an **incomplete agent specification** designed to be finalized through a guided ChatGPT session.
+
+### Workflow
+
+1. **Clone / download repository (empty or partial state).**
+2. **Open ChatGPT (browser).**
+3. Paste the full repository contents into ChatGPT as a single context dump.
+4. Start the session using `chatgpt-instructions.md` as the primary execution guide. (viz: Load and follow bootstrap/chatgpt-instructions.md; begin system completion session treating all repository files as draft specification, do not execute as an agent, only extract intent, identify gaps, and run structured interview to complete full system definition.)
+5. Run the structured “interview + validation cycle”:
+   - extract system intent
+   - identify missing definitions
+   - resolve structural and naming ambiguity
+   - define agent identity, rules, and skill boundaries
+   - iteratively normalize the system into a consistent specification
+6. Continue until ChatGPT confirms the system is:
+   - complete
+   - internally consistent
+   - free of unresolved ambiguity
+7. Request final output generation:
+   - ChatGPT produces a fully filled version of all repository files
+   - output is formatted as a complete file set (ready for copy/export)
+   - Prompt: Load and follow bootstrap/chatgpt-instructions.md; enter final validation mode to audit entire system for contradictions and missing definitions, normalize into a coherent specification, then output a complete reconstructed file pack with all files fully expanded and no omissions.
+8. Save the generated output back into the repository for IDE usage.
+
 ## Setup (5 minutes)
 
 1. **Copy** the `llm/` folder from this repo into your project root. Optionally rename it to `.llm/` if you want it hidden from your file tree.
