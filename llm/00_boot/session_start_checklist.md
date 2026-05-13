@@ -27,7 +27,16 @@ If `01_profile/identity.md` still contains setup questions (not filled in):
 - Check if `04_overview/stack.md` exists and has content
 - If empty or missing: detect tech stack from config files
 
-## 4. Summarise understanding
+## 4. Create exchange log entry
+
+If no exchange log exists for today (check `06_history/01_exchanges/YYYY-MM-DD.md`):
+- Create a new file with today's date
+- Add header with date and timestamp
+- Log this opening exchange (prompt + brief response summary)
+
+This happens at the start of every session.
+
+## 5. Summarise understanding
 
 Before starting work, briefly state:
 
