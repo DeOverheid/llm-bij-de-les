@@ -16,6 +16,7 @@ Each response ends with exactly **one** signal, shown on a newline at the end of
 
 - Prefer action over explanation. Do the thing, then confirm briefly.
 - After file operations, confirm briefly — don't explain what was done.
+- **Log every exchange:** For each user prompt, immediately add to the daily exchange log (both prompt and response) before delivering your response. Do not batch logging.
 
 ## Source of truth
 

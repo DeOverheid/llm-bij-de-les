@@ -35,7 +35,7 @@ If no exchange log exists for today (check `06_history/01_exchanges/YYYY-MM-DD.m
 - Add header with date and timestamp
 - Log this opening exchange (prompt + brief response summary)
 
-This happens at the start of every session.
+**Important:** Log every exchange pair (prompt + response) as they occur during the session. Do not batch logging at the end.
 
 ## 5. Summarise understanding
 
