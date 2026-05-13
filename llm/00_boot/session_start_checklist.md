@@ -17,6 +17,7 @@ If `01_profile/identity.md` still contains setup questions (not filled in):
   - Present the rules in `01_profile/instructions.md` to the user
   - Ask: "These are your current behaviour rules. Want to keep them as-is, or change any?"
   - Apply any requested changes
+- Ask about response style for direct instructions: "When you give direct instructions (not asking for a plan), should I assume you know the steps and just execute with minimal feedback?" (Add to preferences if yes)
 - Once done, confirm the profile is complete
 - Delete the bootstrap file from the project root (the one that pointed here — it's no longer needed)
 

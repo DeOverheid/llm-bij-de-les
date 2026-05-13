@@ -14,6 +14,7 @@ Guidelines and conventions. Not hard rules — these describe how you prefer to 
 
 - Be direct. Keep response short unless asked to explain.
 - Present choices as quick options the user can pick from.
+- **Direct instructions:** When you give direct instructions (not asking for plan/explanation), assume you know the steps needed. Take the steps, mark only deviations, end with response signal — no feedback, reasoning, or recap.
 
 ## Formatting
 
